@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Link-in-Bio</title>
 </head>
+
 <body>
   <style>
-    *{
+    * {
       border: 1px blue dashed;
     }
 
-    .main-image{
-      display:flex;
+    .main-image {
+      display: flex;
       justify-content: center;
     }
 
-    .image-cactus{
-      width:300px;
-      height:auto;
+    .image-profile {
+      width: 300px;
+      height: auto;
     }
 
+    .images-links {
+      width: 80px;
+      height: auto;
+    }
   </style>
 
 
 
   <div class="container">
     <div class="main-image">
-      <img class="image-cactus" src="images/cactus.jpg" alt="a cactus">
+      <img class="image-profile" src="images/cactus.jpg" alt="a cactus">
     </div>
     <div class="name-row">
       Jose Aguirre
@@ -37,11 +43,22 @@
       <a href="https://www.instagram.com/chepul7/" target="_blank">Instagram</a>
       <a href="https://www.linkedin.com/in/jositow/" target="_blank">Linkedin</a>
     </div>
+
     <div class="links">
-      4
+      <div class="item">
+        <img class="images-links" src="images/htmlcss.jpg" alt="">
+        <a href="https://learn.shayhowe.com/html-css/" target="_blank">Learn to code HTML & CSS</a>
+      </div>
+
+      <div class="item">
+        <img class="images-links" src="images/cssgame.png" alt="">
+        <a href="http://www.flexboxdefense.com/" target="_blank">CSS game</a>
+      </div>
+
     </div>
   </div>
 
 
 </body>
+
 </html>
