@@ -5,34 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Link-in-Bio</title>
-</head>
-
-<body>
   <style>
     * {
+      padding-top:8px;
+      padding-bottom:8px;
       border: 1px blue dashed;
     }
-
-    .main-image {
+  
+    .image-container {
       display: flex;
       justify-content: center;
     }
-
+  
     .image-profile {
-      width: 300px;
-      height: auto;
+      width: 128px;
+      height: 128px;
+      object-fit:cover;
+      border-radius: 55px;
     }
-
+  
     .images-links {
-      width: 80px;
-      height: auto;
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
     }
   </style>
 
+</head>
 
-
+<body>
+  
   <div class="container">
-    <div class="main-image">
+    <div class="image-container">
       <img class="image-profile" src="images/cactus.jpg" alt="a cactus">
     </div>
     <div class="name-row">
